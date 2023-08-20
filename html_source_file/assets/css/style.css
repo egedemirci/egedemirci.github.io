@@ -22,11 +22,11 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 
 .icon-button:hover span { width: 3.6rem; height: 3.6rem; border-radius: 3.6rem; margin: -1.8rem; }
 
-.twitter span { background-color: #4099ff; }
+.twitter span { background-color: #D3A625; }
 
-.facebook span { background-color: #4286f4; }
+.facebook span { background-color: #D3A625;}
 
-.linkedin span { background-color: #0077B5; }
+.linkedin span { background-color: #D3A625; }
 
 .github span { background-color: #000; }
 
@@ -34,13 +34,13 @@ email { font-size: 14px; font-family: "Ubuntu Mono"; }
 
 .icon-button i { background: none; color: white; height: 3.6rem; left: 0; line-height: 3.6rem; position: absolute; top: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; width: 3.6rem; z-index: 10; }
 
-.icon-button .icon-twitter { color: #4099ff; }
+.icon-button .icon-twitter { color: #D3A625;}
 
-.icon-button .icon-facebook { color: #4286f4; }
+.icon-button .icon-facebook { color: #D3A625; }
 
 .icon-button .icon-github { color: #000; }
 
-.icon-button .icon-linkedin { color: #0077B5; }
+.icon-button .icon-linkedin { color: #D3A625; }
 
 .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-github, .icon-button:hover .icon-linkedin { color: white; }
 
@@ -85,9 +85,9 @@ h1, h2, h3 { line-height: 1.1; }
 
 h1 { font-size: 28px; }
 
-a { color: #39c; text-decoration: none; }
+a { color: #D3A625;; text-decoration: none; }
 
-a:hover { color: #069; }
+a:hover { color: #ac8417;; }
 
 @media (prefers-color-scheme: dark) { a { color: #D3A625; } }
 a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
