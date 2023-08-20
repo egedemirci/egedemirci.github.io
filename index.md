@@ -12,8 +12,12 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Social Networks**
+- **Computational Social Science**
+- **Natural Language Processing and Social Interaction**
+- **Network Science**
+- **Machine Learning for Social Good**
+- **Spread of Disinformation & Misinformation Through Social Media**
 
 ## News
 
