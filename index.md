@@ -23,7 +23,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 - **#Secim2023: First Public Dataset for Studying Turkish General Election**
   <br>
-  Najafi, A.,         Mugurtay, N., Zouzou, Y., **Demirci, E.**, Demirkiran, S., Karadeniz, H.A., & Varol, O.
+  Ali Najafi, Nihat Muğurtay, Yasser Zouzou., **Ege Demirci**, Serhat Demirkıran, H. Alper Karadeniz, Onur Varol
   <br>
   (Under review)
   <br>
@@ -31,11 +31,25 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 ## Selected Projects
 
-- **#Decoding Istanbul’s Vehicular Veins - A Network Science Exploration of Metropolitan Traffic Dynamics**
+- **Decoding Istanbul’s Vehicular Veins - A Network Science Exploration of Metropolitan Traffic Dynamics**
   <br>
-   **Demirci, E.**,&nbsp;Tüzün, E., Beker, Ö.Y., Tüzün, A.
+   **Ege Demirci**, Efe Tüzün, Özgür Beker, Alp Tüzün
   <br>
-  Using network science, this study analyzes Istanbul's traffic patterns using city data. It identifies key congestion points, proposes a spatial correlation model, and offers insights for urban transport planning in major cities.
+  Using network science, we analyzed Istanbul's traffic patterns. We identified key congestion points, proposed a spatial correlation model, and offered insights for urban transport planning in major cities.
+  <br>
+  (February 2023 - June 2023)
+  <br>
+  Using network science techniques, we analyzed Istanbul's traffic patterns. We identified key congestion points, proposed a spatial correlation model, and offered insights for urban transport planning in major cities.
   <br>
   [[Paper](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/blob/main/Decoding%20Istanbul’s%20Vehicular%20Veins%20-%20A%20Network%20Science%20Exploration%20of%20Metropolitan%20Traffic%20Dynamics.pdf)] [[Repository](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/tree/main/)] 
+
+- **#Secim2023**
+  <br>
+   **Viral Lab**
+  <br>
+ (March 2022 - Present)
+ <br>
+  Under the supervision of Dr. Onur Varol at VRLLab, I was one of the main contributors to the 'Secim2023' research initiative. My contributions spanned co-authoring some whitepapers, and regular data analysis during the election process, and refining some part of the election dataset.
+  <br>
+  [[#Secim2023 Platform](http://secim2023.biz/)] 
 
