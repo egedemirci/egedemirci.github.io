@@ -27,6 +27,5 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
   <br>
   (Under review)
   <br>
-  [[PDF](https://arxiv.org/abs/2211.13121)] [[Data](https://github.com/ViralLab/Secim2023_Dataset/)] <strong><i style="color:#e74d3c">Dataset Paper</i></strong>
-
+  [[PDF](https://arxiv.org/abs/2211.13121)] [[Data](https://github.com/ViralLab/Secim2023_Dataset/)] 
 
