@@ -27,5 +27,17 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
   <br>
   (Under review)
   <br>
-  [[PDF](https://arxiv.org/abs/2211.13121)] [[Data](https://github.com/ViralLab/Secim2023_Dataset/)] 
+  [[Paper](https://arxiv.org/abs/2211.13121)] [[Data](https://github.com/ViralLab/Secim2023_Dataset/)] 
+
+## Selected Projects
+
+- **#Decoding Istanbul’s Vehicular Veins - A Network Science Exploration of Metropolitan Traffic Dynamics**
+  <br>
+   **Demirci, E.**, Tüzün, E., Beker, Ö.Y., Tüzün, A.
+  <br>
+  
+  Using network science, this study analyzes Istanbul's traffic patterns using city data. It identifies key congestion points, proposes a spatial correlation model, and offers insights for urban transport planning in major cities.
+
+  <br>
+  [[Paper](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/blob/main/Decoding%20Istanbul’s%20Vehicular%20Veins%20-%20A%20Network%20Science%20Exploration%20of%20Metropolitan%20Traffic%20Dynamics.pdf)] [[Repository](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/tree/main/)] 
 
