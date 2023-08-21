@@ -33,7 +33,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 - **#Decoding Istanbul’s Vehicular Veins - A Network Science Exploration of Metropolitan Traffic Dynamics**
   <br>
-   **Demirci, E.**, Tüzün, E., Beker, Ö.Y., Tüzün, A.
+   **Demirci, E.**,&nbsp;Tüzün, E., Beker, Ö.Y., Tüzün, A.
   <br>
   Using network science, this study analyzes Istanbul's traffic patterns using city data. It identifies key congestion points, proposes a spatial correlation model, and offers insights for urban transport planning in major cities.
   <br>
