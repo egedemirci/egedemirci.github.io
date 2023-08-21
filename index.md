@@ -19,13 +19,14 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 - **Machine Learning for Social Good**
 - **Spread of Disinformation & Misinformation Through Social Media**
 
-## News
+## Publications
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **#Secim2023: First Public Dataset for Studying Turkish General Election**
+  <br>
+  Najafi, A., Mugurtay, N., Zouzou, Y., **Demirci, E.**, Demirkiran, S., Karadeniz, H.A., & Varol, O.
+  <br>
+  (Under review)
+  <br>
+  [[PDF](https://arxiv.org/abs/2211.13121)] [[Data](https://github.com/ViralLab/Secim2023_Dataset/)] <strong><i style="color:#e74d3c">Dataset Paper</i></strong>
 
-{% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
