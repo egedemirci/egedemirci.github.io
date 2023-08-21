@@ -23,7 +23,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 - **#Secim2023: First Public Dataset for Studying Turkish General Election**
   <br>
-  Najafi, A., Mugurtay, N., Zouzou, Y., **Demirci, E.**, Demirkiran, S., Karadeniz, H.A., & Varol, O.
+  Najafi, A.,         Mugurtay, N., Zouzou, Y., **Demirci, E.**, Demirkiran, S., Karadeniz, H.A., & Varol, O.
   <br>
   (Under review)
   <br>
@@ -35,9 +35,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
   <br>
    **Demirci, E.**, Tüzün, E., Beker, Ö.Y., Tüzün, A.
   <br>
-  
   Using network science, this study analyzes Istanbul's traffic patterns using city data. It identifies key congestion points, proposes a spatial correlation model, and offers insights for urban transport planning in major cities.
-
   <br>
   [[Paper](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/blob/main/Decoding%20Istanbul’s%20Vehicular%20Veins%20-%20A%20Network%20Science%20Exploration%20of%20Metropolitan%20Traffic%20Dynamics.pdf)] [[Repository](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/tree/main/)] 
 
