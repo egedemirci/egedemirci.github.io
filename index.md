@@ -23,7 +23,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 - **#Secim2023: First Public Dataset for Studying Turkish General Election**
   <br>
-  Najafi, A.,  Mugurtay, N.,  Zouzou, Y.,  **Demirci, E.**,  Demirkiran, S.,  Karadeniz, H.A., &  Varol, O.
+  Najafi, A., Mugurtay, N., Zouzou, Y., **Demirci, E.**, Demirkiran, S., Karadeniz, H.A., & Varol, O.
   <br>
   (Under review)
   <br>
