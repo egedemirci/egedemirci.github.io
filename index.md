@@ -35,8 +35,6 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
   <br>
    **Ege Demirci**, Efe Tüzün, Özgür Beker, Alp Tüzün
   <br>
-  Using network science, we analyzed Istanbul's traffic patterns. We identified key congestion points, proposed a spatial correlation model, and offered insights for urban transport planning in major cities.
-  <br>
   (February 2023 - June 2023)
   <br>
   Using network science techniques, we analyzed Istanbul's traffic patterns. We identified key congestion points, proposed a spatial correlation model, and offered insights for urban transport planning in major cities.
@@ -45,7 +43,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 - **#Secim2023**
   <br>
-   **Viral Lab**
+   **VRLLab**
   <br>
  (March 2022 - Present)
  <br>
