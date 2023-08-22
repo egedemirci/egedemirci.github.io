@@ -51,7 +51,8 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
   <br>
   [[#Secim2023 Platform](http://secim2023.biz/)] 
 
-  ## Teaching Experience
+## Teaching Experience
+
 - IF100 - Computational Approaches to Problem Solving - Sabanci University - Fall/Spring 2022
 - CS210 - Introduction to Data Science  - Sabanci University - Fall/Spring 2023  
 

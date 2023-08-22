@@ -6,8 +6,8 @@ email: egedemirci (at) sabanciuniv.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+keywords: ege demirci, ege, demirci ege, ege_demirci, egedemirci
+description: Ege Demirci is here.
 canonical: https://minimal-light-theme.yliu.me/
 
 # Links 
@@ -23,7 +23,7 @@ favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
+enable_footnote: false
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
