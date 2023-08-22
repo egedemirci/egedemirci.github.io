@@ -63,5 +63,5 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 ## Misc
 
-- You can read my music blog where I write about albums [@egelistens](https://www.instagram.com/egelistens/), and you can see my whole music library from [last.fm] (https://www.last.fm/user/egedemirci).
+- You can read my music blog where I write about albums [@egelistens](https://www.instagram.com/egelistens/), and you can see my whole music library from [@last.fm](https://www.last.fm/user/egedemirci) .
 - President of Sabanci University Cinema Club -  [@sinek](https://www.instagram.com/sineksu/)
