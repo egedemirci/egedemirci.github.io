@@ -14,7 +14,7 @@
   line-height:2.5rem;
   margin-right:1rem}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #ffb703 !important; }}
+@media (prefers-color-scheme: dark) { .social-icons a {color: #ECB21F !important; }}
 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
@@ -92,13 +92,13 @@
   margin:-1.8rem}
 
 .twitter span{
-  background-color:#ffb703}
+  background-color:#ECB21F}
 
 .facebook span{
-  background-color:#ffb703}
+  background-color:#ECB21F}
 
 .linkedin span{
-  background-color:#ffb703}
+  background-color:#ECB21F}
 
 .github span{
   background-color:#000}
@@ -124,16 +124,16 @@ email {
   z-index:10}
 
 .icon-button .icon-twitter{
-  color:#ffb703}
+  color:#ECB21F}
 
 .icon-button .icon-facebook{
-  color:#ffb703}
+  color:#ECB21F}
 
 .icon-button .icon-github{
   color:#000;}
 
 .icon-button .icon-linkedin{
-  color:#ffb703}
+  color:#ECB21F}
 
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
@@ -249,11 +249,11 @@ h2 {
 
 @media (prefers-color-scheme: dark) {
   h1, h3, h4, h5, h6 {
-    color:rgb(255,183,3);
+    color:rgb(236,178,31);
   }
 
   h2 {
-    color:rgb(255,183,3);
+    color:rgb(236,178,31);
   }
 }
 
@@ -270,17 +270,17 @@ h1 {
 }
 
 a {
-  color:#ffb703;
+  color:#ECB21F;
   text-decoration:none;
 }
 
 a:hover {
-  color:rgb(218, 191, 159);
+  color:rgb(182, 135, 14);
 }
 
 @media (prefers-color-scheme: dark) {
   a {
-    color:rgb(255,183,3);
+    color:rgb(236,178,31);
   }
 }
 
@@ -343,11 +343,11 @@ th {
 
 @media (prefers-color-scheme: dark) {
   th {
-    color:rgb(255,183,3);
+    color:rgb(236,178,31);
   }
 
   dt {
-    color:rgb(255,183,3);
+    color:rgb(236,178,31);
   }
 }
 
