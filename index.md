@@ -56,7 +56,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 - **CS210 - Introduction to Data Science  - Sabanci University**
   <br>
 
-I worked as a Learning Assistant for the IF100 course from September 2021 to June 2022, teaching Python and computational thinking techniques such as algorithmic thinking, abstraction and decomposition to all freshman students. I am currently working as a Learning Assistant for the CS210 course, teaching Machine Learning and Data Science techniques to 2nd and 3rd year Computer Science and Engineering students since September 2022.  My specific roles included assisting students during weekly recitation hours to reinforce lecture topics, preparing materials for the recitation, preparing homework assignments, and providing further assistance during office hours.
+  I worked as a Learning Assistant for the IF100 course from September 2021 to June 2022, teaching Python and computational thinking techniques such as algorithmic thinking, abstraction and decomposition to all freshman students. I am currently working as a Learning Assistant for the CS210 course, teaching Machine Learning and Data Science techniques to 2nd and 3rd year Computer Science and Engineering students since September 2022.  My specific roles included assisting students during weekly recitation hours to reinforce lecture topics, preparing materials for the recitation, preparing homework assignments, and providing further assistance during office hours.
 ## Misc
 
 - You can read my music blog where I write about albums [@egelistens](https://www.instagram.com/egelistens/), and you can see my whole music library from [@last.fm](https://www.last.fm/user/egedemirci).
