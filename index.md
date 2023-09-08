@@ -20,7 +20,6 @@ For collaborations, inquiries, or simply to connect, [my DMs are always open.](m
 
 - **#Secim2023: First Public Dataset for Studying Turkish General Election**
   <br>
-  
   Ali Najafi, Nihat Muğurtay, Yasser Zouzou, **Ege Demirci**, Serhat Demirkıran, H. Alper Karadeniz, Onur Varol
   <br>
   (Under review)
