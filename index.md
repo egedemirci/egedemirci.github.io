@@ -8,8 +8,7 @@ I am currently a senior B.Sc. student in [Computer Science and Engineering](http
 
 My research is centered on analyzing the intricate dynamics of social networks, emphasizing the roles these networks play in shaping individual beliefs and collective behaviors. I use a combination of computational social science, machine learning, and network science methods to conduct my research. 
   
-For collaborations, inquiries, or simply to connect, my DMs are always open.
-
+For collaborations, inquiries, or simply to connect, [my DMs are always open.](mailto:egedemirci@sabanciuniv.edu)
 ## Research Interests
 
 - **Computational Social Science**
@@ -35,7 +34,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
   <br>
   (February 2023 - June 2023)
   <br>
-  
+
   Using network science techniques, we analyzed Istanbul's traffic patterns. We identified key congestion points, proposed a spatial correlation model, and offered insights for urban transport planning in major cities.
   <br>
   [[Paper](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/blob/main/Decoding%20Istanbul’s%20Vehicular%20Veins%20-%20A%20Network%20Science%20Exploration%20of%20Metropolitan%20Traffic%20Dynamics.pdf)] [[Repository](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/tree/main/)] 
