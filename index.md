@@ -35,6 +35,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
   <br>
   (February 2023 - June 2023)
   <br>
+  
   Using network science techniques, we analyzed Istanbul's traffic patterns. We identified key congestion points, proposed a spatial correlation model, and offered insights for urban transport planning in major cities.
   <br>
   [[Paper](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/blob/main/Decoding%20Istanbul’s%20Vehicular%20Veins%20-%20A%20Network%20Science%20Exploration%20of%20Metropolitan%20Traffic%20Dynamics.pdf)] [[Repository](https://github.com/egedemirci/IstanbulTrafficDynamics-Network-Science/tree/main/)] 
@@ -45,6 +46,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
   <br>
  (March 2022 - Present)
  <br>
+
   Under the supervision of Dr. Onur Varol at VRL Lab, I was one of the main contributors to the '#Secim2023' research initiative. My contributions spanned co-authoring some whitepapers, and regular data analysis during the election process, and refining some part of the election dataset.
   <br>
   [[#Secim2023 Platform](http://secim2023.biz/)] 
