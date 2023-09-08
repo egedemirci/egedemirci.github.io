@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently a senior B.Sc. student in Computer Science and Engineering at Sabanci University. I work as a research assistant at VRL Lab, under the supervision of Dr. Onur Varol, where I investigate human behaviors and societal patterns by seamlessly integrating both online and offline data.
+I am currently a senior B.Sc. student in [Computer Science and Engineering](https://cs.sabanciuniv.edu/) at Sabanci University. I work as a research assistant at [VRL Lab](http://varollab.com), under the supervision of [Dr. Onur Varol](http://www.onurvarol.com), where I investigate human behaviors and societal patterns by seamlessly integrating both online and offline data.
 
 My research is centered on analyzing the intricate dynamics of social networks, emphasizing the roles these networks play in shaping individual beliefs and collective behaviors. I use a combination of computational social science, machine learning, and network science methods to conduct my research. 
   
@@ -12,9 +12,7 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 ## Research Interests
 
-- **Social Networks**
 - **Computational Social Science**
-- **Natural Language Processing and Social Interaction**
 - **Network Science**
 - **Machine Learning for Social Good**
 - **Spread of Disinformation & Misinformation Through Social Media**
@@ -53,9 +51,13 @@ For collaborations, inquiries, or simply to connect, my DMs are always open.
 
 ## Teaching Experience
 
-- IF100 - Computational Approaches to Problem Solving - Sabanci University - Fall/Spring 2022
-- CS210 - Introduction to Data Science  - Sabanci University - Fall/Spring 2023  
+- **IF100 - Computational Approaches to Problem Solving - Sabanci University**
+  <br>
+- **CS210 - Introduction to Data Science  - Sabanci University**
+  <br>
+I worked as a Learning Assistant for the IF100 course from September 2021 to June 2022, teaching Python and computational thinking techniques such as algorithmic thinking, abstraction and decomposition to all freshman students. I am currently working as a Learning Assistant for the CS210 course, teaching Machine Learning and Data Science techniques to 2nd and 3rd year Computer Science and Engineering students since September 2022. 
 
+As a learning assistant, I helped students review lecture topics during recitation hours, prepared recitation materials and homework assignments, and provided additional support during office hours.
 ## Misc
 
 - You can read my music blog where I write about albums [@egelistens](https://www.instagram.com/egelistens/), and you can see my whole music library from [@last.fm](https://www.last.fm/user/egedemirci).
