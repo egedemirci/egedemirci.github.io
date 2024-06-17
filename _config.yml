@@ -6,13 +6,13 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ege
 middle_name: 
 last_name: Demirci
-email: egedemirci@ucsb.edu
+email: egedemirci@sabanciuniv.edu
 description: # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Design inspired by the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Last update: 17 June 2024.
 keywords: ege, egedemirci, ege-demirci, demirci # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ege.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://egedemirci.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -158,16 +158,6 @@ giscus:
 disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Collections
