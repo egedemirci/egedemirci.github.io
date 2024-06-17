@@ -21,8 +21,6 @@ I am currently a senior B.Sc. student in [Computer Science and Engineering](http
 
 My research is centered on analyzing the intricate dynamics of social networks, emphasizing the roles these networks play in shaping individual beliefs and collective behaviors. I use a combination of computational social science, machine learning, and network science methods to conduct my research. 
   
-For collaborations, inquiries, or simply to connect, [my DMs are always open.](mailto:egedemirci@sabanciuniv.edu)
-
 ## research interests
 
 - network science
