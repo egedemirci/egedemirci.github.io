@@ -2,24 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://cs.sabanciuniv.edu/'>Computer Science and Engineering - Sabanci University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href="mailto:egedemirci@sabanciuniv.edu">egedemirci@sabanciuniv.edu</a></p>
+
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a senior B.Sc. student in [Computer Science and Engineering](https://cs.sabanciuniv.edu/) at Sabanci University. I work as a research assistant at [VRL Lab](http://varollab.com), under the supervision of [Dr. Onur Varol](http://www.onurvarol.com), where I investigate human behaviors and societal patterns by seamlessly integrating both online and offline data.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research is centered on analyzing the intricate dynamics of social networks, emphasizing the roles these networks play in shaping individual beliefs and collective behaviors. I use a combination of computational social science, machine learning, and network science methods to conduct my research. 
+  
+For collaborations, inquiries, or simply to connect, [my DMs are always open.](mailto:egedemirci@sabanciuniv.edu)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## research interests
+
+- network science
+- machine learning for social good
+- spread of disinformation & misinformation through social media
+
