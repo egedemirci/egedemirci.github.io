@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a first year PhD student in [Computer Science](https://cs.ucsb.edu/) at the University of California, Santa Barbara, conducting research in the [DYNAMO Lab](https://dynamo.cs.ucsb.edu) under the supervision of [Dr. Ambuj Singh](https://sites.cs.ucsb.edu/~ambuj/). My work mainly focuses on machine learning on graph-structured data, with the goal of developing advanced techniques for predicting network structure and flows, critical to planning and optimizing infrastructure systems.
+I am a second year PhD student in [Computer Science](https://cs.ucsb.edu/) at the University of California, Santa Barbara, conducting research in the [DYNAMO Lab](https://dynamo.cs.ucsb.edu) under the supervision of [Dr. Ambuj Singh](https://sites.cs.ucsb.edu/~ambuj/). My work mainly focuses on machine learning for graph-structured data, with emphasis on symmetry/equivariance and representation learning, designing symmetry-preserving, physics-aware systems that learn expressive, data-efficient graph representations. In my first-year, I built an equivariant model for flow prediction and structure inference in critical infrastructure networks, integrating physical constraints to improve accuracy and robustness.
 
 I graduated as valedictorian in June 2024 from [Sabanci University](https://cs.sabanciuniv.edu/) with a B.Sc. in Computer Science and Engineering. For three years, I worked as a research assistant at [VRL Lab](http://varollab.com), where we investigated human behaviors and societal patterns by integrating both online and offline data, under the supervision of [Dr. Onur Varol](http://www.onurvarol.com).
 
@@ -27,6 +27,11 @@ During my time at Sabanci University, my research primarily focused on exploring
 My research interests can be summarized with few keywords:
 
 - **Machine Learning on Graphs**: Developing and applying machine learning techniques to graph-structured data to gain insights into networked systems.
-- **Network Science**: Investigating the structure and dynamics of social networks, and how they influence individual and collective behavior. Studying the formation, evolution, and impact of social networks on various aspects of society.
-- **Machine Learning for Social Good**: Applying machine learning methods to address social issues and improve public well-being.
-- **Causal Inference**: Evaluating the effectiveness of interventions and understanding causality in complex systems, particularly in the context of digital media and social networks.
+- **Symmetry and Equivariance**: Using group actions and invariances to build symmetry-preserving GNNs that respect physical laws (e.g., conservation, permutation/rotational symmetry), boosting sample efficiency and out-of-domain generalization.
+- **Representation Learning**: Designing expressive, transferable graph representations (e.g., positional encodings; contrastive/self-supervised objectives) that improve robustness and generalization under distribution shift and sparse labels.
+
+In the past, I also worked in:
+
+- **Network Science**: Studying the structure and dynamics of social and infrastructure networks, including cascades, robustness, and information diffusion.
+- **Computational Social Science**: Modeling behavior and information ecosystems in socio-technical networks (e.g., misinformation diffusion, habit formation, behavior change) using ML + causal tools.
+- **Causal Inference & ML for Social Good**: Evaluating interventions and understanding causality in complex system to drive measurable public well-being.

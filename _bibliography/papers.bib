@@ -2,6 +2,19 @@
 ---
 
 
+@article{Demirci2025,
+    abbr = {ACL 2025 - SRW},
+    author = {Ege Demirci and Rithwik Kerur and Ambuj Singh},
+    title = {Are LLMs Truly Graph-Savvy? A Comprehensive Evaluation of Graph Generation},
+    journal = {Association for Computational Linguistics - ACL},
+    month = {August},
+    year = {2025},
+    abstract = {While large language models (LLMs) have demonstrated impressive capabilities across diverse tasks, their ability to generate valid graph structures remains underexplored. We evaluate fifteen state-of-the-art LLMs on five specialized graph generation tasks spanning delivery networks, social networks, quantum circuits, gene-disease networks, and transportation systems. We also test the LLMs using 3 different prompt types: direct, iterative feedback, and program-augmented. Models supported with explicit reasoning modules (o3-mini-high, o1, Claude 3.7 Sonnet, DeepSeek-R1) solve more than twice as many tasks as their general-purpose peers, independent of parameter count. Error forensics reveals two recurring failure modes: smaller parameter size Llama models often violate basic structural constraints, whereas Claude models respect topology but mismanage higher-order logical rules. Allowing models to refine their answers iteratively yields uneven gains, underscoring fundamental differences in error-correction capacity. This work demonstrates that graph competence stems from specialized training methodologies rather than scale, establishing a framework for developing truly graph-savvy language models.},
+  selected={true},
+  pdf = {acl.pdf},
+}
+
+
 @article{Demirci2024,
   abbr={Preprint},
   author = {Ege Demirci and Efe Tüzün and Ahmet Furkan Un and Taner Giray Sonmez and Onur Varol},
@@ -14,7 +27,6 @@ Habit Formation Insights From a Comprehensive Fitness Study},
   keywords = {habit formation, exercise, fitness, gym attendance, social interactions, structured commitments, causal inference, survival metric},
   selected={true},
   pdf = {habit.pdf},
-
 }
 
 @article{Najafi2024,
@@ -33,13 +45,61 @@ Habit Formation Insights From a Comprehensive Fitness Study},
   pdf = {secim2023.pdf},
 }
 
-@article{Demirci2023,
+@article{NeurIPS1,
   abbr={Preprint},
-  author = {Ege Demirci and Efe Tüzün and Özgür Yilmaz Beker and Alp Tüzün},
-  title = {Decoding Istanbul's Vehicular Veins: A Network Science Exploration of Metropolitan Traffic Dynamics},
-  journal = {Preprint},
-  year = {2023},
-  month = {June},
-  abstract = {This project employs the techniques of network science to investigate and discern the underlying patterns of traffic flow in Istanbul, one of the world’s busiest cities. Using the data collected by the Istanbul Metropolitan Municipality, we seek to identify and analyze the major traffic nodes and intersections that exert a significant influence on the city’s overall traffic dynamics. The objective of our research is to understand the complex and interrelated systems that contribute to the unique traffic behavior of Istanbul and identify critical points of congestion. With a network science approach, we propose a model that incorporates spatial correlation and linear diffusion across different locations, drawing on various traffic parameters. The results from this investigation include an identification of the key locations on overall traffic flow and a better understanding of traffic pattern variations. The insights from this research will not only address Istanbul’s traffic congestion issues but will also enrich the broader field of urban traffic systems, aiding strategic transportation planning in other metropolitan cities grappling with similar challenges.},
-  pdf = {trafficnet.pdf}
+  author = {Ege Demirci and Francesco Bullo and Ananthram Swami and Ambuj Singh},
+  title = {GroupGAT: Physics–Aware, Symmetry–Preserving Graph Attention for Network Flow Completion},
+  journal = {Under review for NeurIPS},
+  year = {2025},
+  month = {August},
+  abstract = {Recovering missing flows on the edges of a network, while exactly respecting
+local conservation laws, is a fundamental inverse problem that arises in many
+systems such as transportation, energy, and mobility. We introduce GROUPGAT, a
+novel architecture that combines (i) a group-action on divergence-free flows, (ii) a
+graph-attention encoder to learn feature-conditioned weights over these symmetry-
+preserving actions, and (iii) a lightweight Tikhonov refinement solved via implicit
+bilevel optimization. The method first anchors the given observation on a minimum-
+norm divergence-free completion. We then compute an orthonormal basis for all
+admissible group actions that leave the observed flows invariant and endow the flow
+manifold with an Abelian group structure under vector addition. A stack of GATv2
+layers then encodes the graph and its edge features into per-edge embeddings,
+which are pooled over the missing edges and produce per-basis attention weights.
+This attention-guided process selects a set of physics-aware group actions that
+preserve the observed flows. Finally, a scalar Tikhonov penalty refines the missing
+entries via a convex least-squares solver, with gradients propagated implicitly
+through Cholesky factorization. Across three real-world flow benchmarks (traffic,
+power, bike), GROUPGAT substantially outperforms state-of-the-art baselines in
+RMSE, MAE and correlation metrics.},
+  selected={true},
+
+}
+
+@article{NeurIPS2,
+  abbr={Preprint},
+  author = {Ege Demirci and Ambuj Singh},
+  title = {Graph Neural Networks Should Learn Symmetry: A Third-Wave Agenda for Automatic
+and Adaptive Equivariance},
+  journal = {Under review for NeurIPS Position Paper Track},
+  year = {2025},
+  month = {August},
+  abstract = {This position paper argues that Graph Neural Networks (GNNs) should learn
+symmetry automatically and adaptively rather than rely on hand-coded or
+implicit invariances. The first wave of GNNs relied on implicit permutation
+invariance; the second wave hard-wired richer groups such as E(n) or SE(3),
+achieving state-of-the-art results yet failing when real data violate ideal symmetry.
+We outline a third wave built on (i) automatic discovery of latent symmetry gener-
+ators (LieConv, LieGAN, AtlasD); (ii) soft, layer-wise relaxation that learns how
+much symmetry to retain (Adaptive-E, REMUL, SymPE); (iii) dynamic-graph
+equivariance for evolving or heterogeneous structures (PEnGUiN, ESTAG); and
+(iv) task-equivariant meta-learning that transfers geometric priors across do-
+mains. Preliminary bounds show adaptive equivariance contracts hypothesis-class
+complexity and inherit universal-approximation properties of fixed-group models;
+closing the gap to full guarantees is an open research frontier. Across molecules,
+multi-agent control, and continuum-scale PDEs, third-wave architectures cut data
+or compute by an order of magnitude relative to both non-equivariant and rigidly
+equivariant baselines. We conclude with a seven-point agenda arguing that elevat-
+ing symmetry from a fixed prior to a learnable resource is key to greener models,
+safer controllers, and faster scientific discovery.},
+  selected={true},
+
 }

@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 2
 cv_pdf: ege_cv.pdf
-description: Last updated - July 2024.
+description: Last updated - August 2025.
 toc:
   sidebar: left
 ---
