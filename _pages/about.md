@@ -22,7 +22,6 @@ My research primarily focuses on **graph machine learning**, with an emphasis on
 
 I graduated as valedictorian in June 2024 from [Sabanci University](https://cs.sabanciuniv.edu/) with a B.Sc. in Computer Science and Engineering. For three years, I worked as a research assistant at [VRL Lab](http://varollab.com) under the supervision of [Dr. Onur Varol](http://www.onurvarol.com), where I used network science to analyze misinformation campaigns during the 2023 Turkish elections. In my final year, I collaborated with [Mars Athletic](https://www.macfit.com/en/about-us), where I applied causal inference techniques to model habit formation mechanisms from large-scale behavioral data ([IC2S2 2025](https://arxiv.org/abs/2501.01779)).
 
-
 ## research interests
 
 My current research interests can be summarized with few keywords:
