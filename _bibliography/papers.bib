@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{NeurIPS1,
+  abbr={ICLR 2026},
+  author = {Ege Demirci and Francesco Bullo and Ananthram Swami and Ambuj Singh},
+  title = {FlowSymm: Physics–Aware, Symmetry–Preserving Graph Attention for Network Flow Completion},
+  journal = {International Conference on Learning Representations (ICLR 2026)},
+  year = {2026},
+  month = {January},
+  abstract = {Recovering missing flows on the edges of a network, while exactly respecting local conservation laws, is a fundamental inverse problem that arises in many systems such as transportation, energy, and mobility. We introduce FlowSymm, a novel architecture that combines (i) a group-action on divergence-free flows, (ii) a graph-attention encoder to learn feature-conditioned weights over these symmetry-preserving actions, and (iii) a lightweight Tikhonov refinement solved via implicit bilevel optimization. The method first anchors the given observation on a minimum-norm divergence-free completion. We then compute an orthonormal basis for all admissible group actions that leave the observed flows invariant and parameterize the valid solution subspace, which shows an Abelian group structure under vector addition. A stack of GATv2 layers then encodes the graph and its edge features into per-edge embeddings, which are pooled over the missing edges and produce per-basis attention weights. This attention-guided process selects a set of physics-aware group actions that preserve the observed flows. Finally, a scalar Tikhonov penalty refines the missing entries via a convex least-squares solver, with gradients propagated implicitly through Cholesky factorization. Across three real-world flow benchmarks (traffic, power, bike), FlowSymm substantially outperforms state-of-the-art baselines in RMSE, MAE and correlation metrics.},
+  selected={true},
+}
+
+
 
 @article{Demirci2025,
     abbr = {ACL 2025 - SRW},
@@ -15,12 +27,36 @@
 }
 
 
+@article{NeurIPS2,
+  abbr={ICML 2026 - Position Paper},
+  author = {Ege Demirci and Ambuj Singh},
+  title = {Position: Symmetry in Graph Learning Should Be Calibrated, Not Hard-Coded},
+  journal = {Under review for ICML 2026 Position Paper Track},
+  year = {2026},
+  month = {January},
+  abstract = {This position paper argues that geometric and graph machine learning should treat symmetry as a calibratable design axis, with learnable strength and scope and with explicit stress tests, rather than as a rigid global constraint. Strict equivariant models can be highly sample-efficient when the assumed symmetry matches the data pipeline, but systematic violations (e.g., gravity, contacts, boundaries, heterogeneity, and sensor artifacts) can induce bias floors and wasted computation. We organize the emerging “calibration” toolkit into three mechanisms: (i) restricted discovery of transformation generators, (ii) relaxation of equivariance via soft penalties or gates, and (iii) localization of symmetry across space, time, or node roles. Our core claim is conditional and falsifiable: strict equivariance should remain competitive on low-violation regimes, while calibrated models should improve robustness and total-cost trade-offs (training + inference + augmentation) on high-violation regimes. To make such claims comparable, we propose violation-aware benchmarking, violation sweeps or violation-stratified reporting plus full cost accounting, and a minimal Symmetry Stress-Test Card that reviewers can require.},
+  selected={true},
+}
+
+
+@article{Concorde,
+  abbr={ICML 2026},
+  author = {Ege Demirci and Ambuj Singh},
+  title = {Concorde: Improving Link Prediction with Mixed-Curvature and Local Geometry},
+  journal = {Under review for ICML 2026},
+  year = {2026},
+  month = {January},
+  abstract = {Link prediction models often struggle to reconcile global geometric structure with local topological evidence, particularly in sparse graphs. We introduce Concorde, a framework that bridges this gap by unifying learned mixed-curvature geometry with intrinsic local constraints. Concorde embeds nodes into a product of learnable hyperbolic and spherical manifolds to simultaneously capture hierarchical and cyclic motifs. To mitigate geometric overconfidence, we augment these priors with a structural guardrail: an Ollivier--Ricci curvature proxy that measures neighborhood transport costs to penalize structurally implausible bridges. These manifold-specific and intrinsic signals are fused into a geometry-enhanced adjacency matrix, which guides a diffusion operator. Extensive experiments on standard benchmarks demonstrate that Concorde establishes a new state-of-the-art, nearly doubling early precision compared to leading diffusion and GNN baselines in challenging sparse regimes.},
+  selected={true}
+}
+
+
 @article{Demirci2024,
-  abbr={Preprint},
+  abbr={IC2S2},
   author = {Ege Demirci and Efe Tüzün and Ahmet Furkan Un and Taner Giray Sonmez and Onur Varol},
   title = {From Occasional to Steady:
 Habit Formation Insights From a Comprehensive Fitness Study},
-  journal = {Under review},
+  journal = {Presented at IC2S2, under review for journal publication} ,
   year = {2025},
   month = {January},
   abstract = {Exercising regularly is widely recognized as a cornerstone of health, yet the challenge of sustaining consistent exercise habits persists. Understanding the factors that influence the formation of these habits is crucial for developing effective interventions.  This study utilizes data from Mars Athletic Club, Türkiye's largest sports chain, to investigate the dynamics of gym attendance and habit formation. The general problem addressed by this study is identifying the critical periods and factors that contribute to the successful establishment of consistent exercise routines among gym-goers. Here we show that there are specific periods during which gym attendance is most crucial for habit formation. By developing a survival metric based on gym attendance patterns, we pinpoint these critical periods and segment members into distinct clusters based on their visit patterns. Our analysis reveals significant differences in how various subgroups respond to interventions, such as group classes, personal trainer sessions, and visiting different clubs. Using causal inference analysis, we demonstrate that personalized guidance and social dynamics are key drivers of sustained long-term engagement. By systematically examining these variables and considering the specific characteristics of different clusters, our research demonstrates the importance of a tailored, multi-dimensional approach to promoting exercise habits, which integrates social dynamics, personalized guidance, and strategic interventions to sustain long-term engagement.},
@@ -45,36 +81,4 @@ Habit Formation Insights From a Comprehensive Fitness Study},
   pdf = {secim2023.pdf},
 }
 
-@article{NeurIPS1,
-  abbr={ICLR 2026},
-  author = {Ege Demirci and Francesco Bullo and Ananthram Swami and Ambuj Singh},
-  title = {FlowSymm: Physics–Aware, Symmetry–Preserving Graph Attention for Network Flow Completion},
-  journal = {International Conference on Learning Representations (ICLR 2026)},
-  year = {2026},
-  month = {January},
-  abstract = {Recovering missing flows on the edges of a network, while exactly respecting local conservation laws, is a fundamental inverse problem that arises in many systems such as transportation, energy, and mobility. We introduce FlowSymm, a novel architecture that combines (i) a group-action on divergence-free flows, (ii) a graph-attention encoder to learn feature-conditioned weights over these symmetry-preserving actions, and (iii) a lightweight Tikhonov refinement solved via implicit bilevel optimization. The method first anchors the given observation on a minimum-norm divergence-free completion. We then compute an orthonormal basis for all admissible group actions that leave the observed flows invariant and parameterize the valid solution subspace, which shows an Abelian group structure under vector addition. A stack of GATv2 layers then encodes the graph and its edge features into per-edge embeddings, which are pooled over the missing edges and produce per-basis attention weights. This attention-guided process selects a set of physics-aware group actions that preserve the observed flows. Finally, a scalar Tikhonov penalty refines the missing entries via a convex least-squares solver, with gradients propagated implicitly through Cholesky factorization. Across three real-world flow benchmarks (traffic, power, bike), FlowSymm substantially outperforms state-of-the-art baselines in RMSE, MAE and correlation metrics.},
-  selected={true},
-}
 
-@article{NeurIPS2,
-  abbr={ICML 2026 - Position Paper},
-  author = {Ege Demirci and Ambuj Singh},
-  title = {Position: Symmetry in Graph Learning Should Be Calibrated, Not Hard-Coded},
-  journal = {Under review for ICML 2026 Position Paper Track},
-  year = {2026},
-  month = {January},
-  abstract = {This position paper argues that geometric and graph machine learning should treat symmetry as a calibratable design axis, with learnable strength and scope and with explicit stress tests, rather than as a rigid global constraint. Strict equivariant models can be highly sample-efficient when the assumed symmetry matches the data pipeline, but systematic violations (e.g., gravity, contacts, boundaries, heterogeneity, and sensor artifacts) can induce bias floors and wasted computation. We organize the emerging “calibration” toolkit into three mechanisms: (i) restricted discovery of transformation generators, (ii) relaxation of equivariance via soft penalties or gates, and (iii) localization of symmetry across space, time, or node roles. Our core claim is conditional and falsifiable: strict equivariance should remain competitive on low-violation regimes, while calibrated models should improve robustness and total-cost trade-offs (training + inference + augmentation) on high-violation regimes. To make such claims comparable, we propose violation-aware benchmarking, violation sweeps or violation-stratified reporting plus full cost accounting, and a minimal Symmetry Stress-Test Card that reviewers can require.},
-  selected={true},
-}
-
-
-@article{Concorde,
-  abbr={ICML 2026},
-  author = {Ege Demirci and Ambuj Singh},
-  title = {Concorde: Improving Link Prediction with Mixed-Curvature and Local Geometry},
-  journal = {Under review for ICML 2026},
-  year = {2026},
-  month = {January},
-  abstract = {Link prediction models often struggle to reconcile global geometric structure with local topological evidence, particularly in sparse graphs. We introduce Concorde, a framework that bridges this gap by unifying learned mixed-curvature geometry with intrinsic local constraints. Concorde embeds nodes into a product of learnable hyperbolic and spherical manifolds to simultaneously capture hierarchical and cyclic motifs. To mitigate geometric overconfidence, we augment these priors with a structural guardrail: an Ollivier--Ricci curvature proxy that measures neighborhood transport costs to penalize structurally implausible bridges. These manifold-specific and intrinsic signals are fused into a geometry-enhanced adjacency matrix, which guides a diffusion operator. Extensive experiments on standard benchmarks demonstrate that Concorde establishes a new state-of-the-art, nearly doubling early precision compared to leading diffusion and GNN baselines in challenging sparse regimes.},
-  selected={true}
-}
