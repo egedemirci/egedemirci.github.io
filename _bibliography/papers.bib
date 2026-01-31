@@ -46,60 +46,37 @@ Habit Formation Insights From a Comprehensive Fitness Study},
 }
 
 @article{NeurIPS1,
-  abbr={Preprint},
+  abbr={ICLR 2026},
   author = {Ege Demirci and Francesco Bullo and Ananthram Swami and Ambuj Singh},
-  title = {GroupGAT: Physics–Aware, Symmetry–Preserving Graph Attention for Network Flow Completion},
-  journal = {Under review for NeurIPS},
-  year = {2025},
-  month = {August},
-  abstract = {Recovering missing flows on the edges of a network, while exactly respecting
-local conservation laws, is a fundamental inverse problem that arises in many
-systems such as transportation, energy, and mobility. We introduce GROUPGAT, a
-novel architecture that combines (i) a group-action on divergence-free flows, (ii) a
-graph-attention encoder to learn feature-conditioned weights over these symmetry-
-preserving actions, and (iii) a lightweight Tikhonov refinement solved via implicit
-bilevel optimization. The method first anchors the given observation on a minimum-
-norm divergence-free completion. We then compute an orthonormal basis for all
-admissible group actions that leave the observed flows invariant and endow the flow
-manifold with an Abelian group structure under vector addition. A stack of GATv2
-layers then encodes the graph and its edge features into per-edge embeddings,
-which are pooled over the missing edges and produce per-basis attention weights.
-This attention-guided process selects a set of physics-aware group actions that
-preserve the observed flows. Finally, a scalar Tikhonov penalty refines the missing
-entries via a convex least-squares solver, with gradients propagated implicitly
-through Cholesky factorization. Across three real-world flow benchmarks (traffic,
-power, bike), GROUPGAT substantially outperforms state-of-the-art baselines in
-RMSE, MAE and correlation metrics.},
+  title = {FlowSymm: Physics–Aware, Symmetry–Preserving Graph Attention for Network Flow Completion},
+  journal = {International Conference on Learning Representations (ICLR 2026)},
+  year = {2026},
+  month = {January},
+  abstract = {Recovering missing flows on the edges of a network, while exactly respecting local conservation laws, is a fundamental inverse problem that arises in many systems such as transportation, energy, and mobility. We introduce FlowSymm, a novel architecture that combines (i) a group-action on divergence-free flows, (ii) a graph-attention encoder to learn feature-conditioned weights over these symmetry-preserving actions, and (iii) a lightweight Tikhonov refinement solved via implicit bilevel optimization. The method first anchors the given observation on a minimum-norm divergence-free completion. We then compute an orthonormal basis for all admissible group actions that leave the observed flows invariant and parameterize the valid solution subspace, which shows an Abelian group structure under vector addition. A stack of GATv2 layers then encodes the graph and its edge features into per-edge embeddings, which are pooled over the missing edges and produce per-basis attention weights. This attention-guided process selects a set of physics-aware group actions that preserve the observed flows. Finally, a scalar Tikhonov penalty refines the missing entries via a convex least-squares solver, with gradients propagated implicitly through Cholesky factorization. Across three real-world flow benchmarks (traffic, power, bike), FlowSymm substantially outperforms state-of-the-art baselines in RMSE, MAE and correlation metrics.},
   selected={true},
-
 }
 
 @article{NeurIPS2,
-  abbr={Preprint},
+  abbr={ICML 2026 - Position Paper},
   author = {Ege Demirci and Ambuj Singh},
-  title = {Graph Neural Networks Should Learn Symmetry: A Third-Wave Agenda for Automatic
-and Adaptive Equivariance},
-  journal = {Under review for NeurIPS Position Paper Track},
-  year = {2025},
-  month = {August},
-  abstract = {This position paper argues that Graph Neural Networks (GNNs) should learn
-symmetry automatically and adaptively rather than rely on hand-coded or
-implicit invariances. The first wave of GNNs relied on implicit permutation
-invariance; the second wave hard-wired richer groups such as E(n) or SE(3),
-achieving state-of-the-art results yet failing when real data violate ideal symmetry.
-We outline a third wave built on (i) automatic discovery of latent symmetry gener-
-ators (LieConv, LieGAN, AtlasD); (ii) soft, layer-wise relaxation that learns how
-much symmetry to retain (Adaptive-E, REMUL, SymPE); (iii) dynamic-graph
-equivariance for evolving or heterogeneous structures (PEnGUiN, ESTAG); and
-(iv) task-equivariant meta-learning that transfers geometric priors across do-
-mains. Preliminary bounds show adaptive equivariance contracts hypothesis-class
-complexity and inherit universal-approximation properties of fixed-group models;
-closing the gap to full guarantees is an open research frontier. Across molecules,
-multi-agent control, and continuum-scale PDEs, third-wave architectures cut data
-or compute by an order of magnitude relative to both non-equivariant and rigidly
-equivariant baselines. We conclude with a seven-point agenda arguing that elevat-
-ing symmetry from a fixed prior to a learnable resource is key to greener models,
-safer controllers, and faster scientific discovery.},
+  title = {Position: Symmetry in Graph Learning Should Be Calibrated, Not Hard-Coded},
+  journal = {Under review for ICML 2026 Position Paper Track},
+  year = {2026},
+  month = {January},
+  abstract = {This position paper argues that geometric and graph machine learning should treat symmetry as a calibratable design axis, with learnable strength and scope and with explicit stress tests, rather than as a rigid global constraint. Strict equivariant models can be highly sample-efficient when the assumed symmetry matches the data pipeline, but systematic violations (e.g., gravity, contacts, boundaries, heterogeneity, and sensor artifacts) can induce bias floors and wasted computation. We organize the emerging “calibration” toolkit into three mechanisms: (i) restricted discovery of transformation generators, (ii) relaxation of equivariance via soft penalties or gates, and (iii) localization of symmetry across space, time, or node roles. Our core claim is conditional and falsifiable: strict equivariance should remain competitive on low-violation regimes, while calibrated models should improve robustness and total-cost trade-offs (training + inference + augmentation) on high-violation regimes. To make such claims comparable, we propose violation-aware benchmarking, violation sweeps or violation-stratified reporting plus full cost accounting, and a minimal Symmetry Stress-Test Card that reviewers can require.},
   selected={true},
+}
 
+
+@article{Concorde,
+  abbr={ICML 2026},
+  author = {Ege Demirci and Ambuj Singh},
+  title = {Concorde: Improving Link Prediction with Mixed-Curvature and Local Geometry},
+  journal = {Under review for ICML 2026},
+  year = {2026},
+  month = {January},
+  abstract = {Link prediction models often struggle to reconcile global geometric structure with local topological evidence, particularly in sparse graphs. We introduce Concorde, a framework that bridges this gap by unifying learned mixed-curvature geometry with intrinsic local constraints. Concorde embeds nodes into a product of learnable hyperbolic and spherical manifolds to simultaneously capture hierarchical and cyclic motifs. To mitigate geometric overconfidence, we augment these priors with a structural guardrail: an Ollivier--Ricci curvature proxy that measures neighborhood transport costs to penalize structurally implausible bridges. These manifold-specific and intrinsic signals are fused into a geometry-enhanced adjacency matrix, which guides a diffusion operator. Extensive experiments on standard benchmarks demonstrate that Concorde establishes a new state-of-the-art, nearly doubling early precision compared to leading diffusion and GNN baselines in challenging sparse regimes.
+
+}
+  selected={true},
 }
