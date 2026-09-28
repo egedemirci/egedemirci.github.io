@@ -1,66 +1,72 @@
 ---
 ---
 
-@article{NeurIPS1,
+@article{FlowSymm2026,
   abbr={ICLR 2026},
   author = {Ege Demirci and Francesco Bullo and Ananthram Swami and Ambuj Singh},
-  title = {FlowSymm: Physics–Aware, Symmetry–Preserving Graph Attention for Network Flow Completion},
+  title = {FlowSymm: Physics Aware, Symmetry Preserving Graph Attention for Network Flow Completion},
   journal = {International Conference on Learning Representations (ICLR 2026)},
   year = {2026},
-  month = {January},
+  month = {April},
   abstract = {Recovering missing flows on the edges of a network, while exactly respecting local conservation laws, is a fundamental inverse problem that arises in many systems such as transportation, energy, and mobility. We introduce FlowSymm, a novel architecture that combines (i) a group-action on divergence-free flows, (ii) a graph-attention encoder to learn feature-conditioned weights over these symmetry-preserving actions, and (iii) a lightweight Tikhonov refinement solved via implicit bilevel optimization. The method first anchors the given observation on a minimum-norm divergence-free completion. We then compute an orthonormal basis for all admissible group actions that leave the observed flows invariant and parameterize the valid solution subspace, which shows an Abelian group structure under vector addition. A stack of GATv2 layers then encodes the graph and its edge features into per-edge embeddings, which are pooled over the missing edges and produce per-basis attention weights. This attention-guided process selects a set of physics-aware group actions that preserve the observed flows. Finally, a scalar Tikhonov penalty refines the missing entries via a convex least-squares solver, with gradients propagated implicitly through Cholesky factorization. Across three real-world flow benchmarks (traffic, power, bike), FlowSymm substantially outperforms state-of-the-art baselines in RMSE, MAE and correlation metrics.},
+  html = {https://openreview.net/pdf?id=vu1IEpdUQh},
   selected={true},
 }
 
-
+@article{Concorde2026,
+  abbr={NeurIPS 2026},
+  author = {Ege Demirci and Ambuj Singh},
+  title = {Concorde: Geometry-Aware Link Prediction via Decoupled Energy Minimization},
+  journal = {Advances in Neural Information Processing Systems (NeurIPS 2026)},
+  year = {2026},
+  month = {December},
+  abstract = {Link prediction remains difficult in sparse graphs, where diffusion heuristics lack connectivity and geometric methods suffer spectral instability when coupling learned representations with diffusion operators. We introduce Concorde, an energy-based framework that resolves this by decomposing link likelihood into three structurally decoupled branches: (i) a parameter-free spectral anchor that establishes permutation-invariant topological stability; (ii) a mixed-curvature residual on a learnable hyperbolic-spherical product manifold, regularized by a feature-aware Ollivier-Ricci curvature proxy; and (iii) a continuous vector field on the tangent bundle of hyperbolic space for non-local structural alignment across topological gaps. The branches are fused via learned gating and trained with an N-pair ranking loss aligned with retrieval-style evaluation. Across five benchmarks spanning sparse, dense, featureless, and attributed regimes, Concorde establishes state-of-the-art early retrieval precision, nearly doubling P@10% over leading baselines in sparse settings.},
+  selected={true},
+}
 
 @article{Demirci2025,
-    abbr = {ACL 2025 - SRW},
-    author = {Ege Demirci and Rithwik Kerur and Ambuj Singh},
-    title = {Are LLMs Truly Graph-Savvy? A Comprehensive Evaluation of Graph Generation},
-    journal = {Association for Computational Linguistics - ACL},
-    month = {August},
-    year = {2025},
-    abstract = {While large language models (LLMs) have demonstrated impressive capabilities across diverse tasks, their ability to generate valid graph structures remains underexplored. We evaluate fifteen state-of-the-art LLMs on five specialized graph generation tasks spanning delivery networks, social networks, quantum circuits, gene-disease networks, and transportation systems. We also test the LLMs using 3 different prompt types: direct, iterative feedback, and program-augmented. Models supported with explicit reasoning modules (o3-mini-high, o1, Claude 3.7 Sonnet, DeepSeek-R1) solve more than twice as many tasks as their general-purpose peers, independent of parameter count. Error forensics reveals two recurring failure modes: smaller parameter size Llama models often violate basic structural constraints, whereas Claude models respect topology but mismanage higher-order logical rules. Allowing models to refine their answers iteratively yields uneven gains, underscoring fundamental differences in error-correction capacity. This work demonstrates that graph competence stems from specialized training methodologies rather than scale, establishing a framework for developing truly graph-savvy language models.},
+  abbr={ACL 2025 - SRW},
+  author = {Ege Demirci and Rithwik Kerur and Ambuj Singh},
+  title = {Are LLMs Truly Graph-Savvy? A Comprehensive Evaluation of Graph Generation},
+  journal = {Association for Computational Linguistics - ACL},
+  month = {August},
+  year = {2025},
+  abstract = {While large language models (LLMs) have demonstrated impressive capabilities across diverse tasks, their ability to generate valid graph structures remains underexplored. We evaluate fifteen state-of-the-art LLMs on five specialized graph generation tasks spanning delivery networks, social networks, quantum circuits, gene-disease networks, and transportation systems. We also test the LLMs using 3 different prompt types: direct, iterative feedback, and program-augmented. Models supported with explicit reasoning modules (o3-mini-high, o1, Claude 3.7 Sonnet, DeepSeek-R1) solve more than twice as many tasks as their general-purpose peers, independent of parameter count. Error forensics reveals two recurring failure modes: smaller parameter size Llama models often violate basic structural constraints, whereas Claude models respect topology but mismanage higher-order logical rules. Allowing models to refine their answers iteratively yields uneven gains, underscoring fundamental differences in error-correction capacity. This work demonstrates that graph competence stems from specialized training methodologies rather than scale, establishing a framework for developing truly graph-savvy language models.},
+  html = {https://aclanthology.org/2025.acl-srw.64/},
   selected={true},
   pdf = {acl.pdf},
 }
 
-
-@article{NeurIPS2,
-  abbr={ICML 2026 - Position},
+@article{SymmetryStressTest2026,
+  abbr={ICLR 2027 - Under Review},
   author = {Ege Demirci and Ambuj Singh},
-  title = {Position: Symmetry in Graph Learning Should Be Calibrated, Not Hard-Coded},
-  journal = {Under review for ICML 2026 Position Paper Track},
+  title = {The Symmetry Stress-Test: Violation-Aware Benchmarking for Calibrated Equivariance},
+  journal = {Under review for ICLR 2027},
   year = {2026},
-  month = {January},
-  abstract = {This position paper argues that geometric and graph machine learning should treat symmetry as a calibratable design axis, with learnable strength and scope and with explicit stress tests, rather than as a rigid global constraint. Strict equivariant models can be highly sample-efficient when the assumed symmetry matches the data pipeline, but systematic violations (e.g., gravity, contacts, boundaries, heterogeneity, and sensor artifacts) can induce bias floors and wasted computation. We organize the emerging “calibration” toolkit into three mechanisms: (i) restricted discovery of transformation generators, (ii) relaxation of equivariance via soft penalties or gates, and (iii) localization of symmetry across space, time, or node roles. Our core claim is conditional and falsifiable: strict equivariance should remain competitive on low-violation regimes, while calibrated models should improve robustness and total-cost trade-offs (training + inference + augmentation) on high-violation regimes. To make such claims comparable, we propose violation-aware benchmarking, violation sweeps or violation-stratified reporting plus full cost accounting, and a minimal Symmetry Stress-Test Card that reviewers can require.},
+  abstract = {Approximate symmetry is by now uncontroversial: gravity, contacts, boundaries, and sensor pipelines routinely break the groups our models assume, and soft or relaxed equivariance can absorb the mismatch. What the field cannot yet do is measure when a symmetry prior helps, hurts, or is untested, because aggregate IID accuracy hides all three. We make it measurable with violation-aware benchmarking: sweep a controlled symmetry-breaking parameter, verify the parameter is a valid proxy for violation (monotone, stable, and predictive of the strict-versus-calibrated gap), and account for total cost. The three steps fit in a one-paragraph Symmetry Stress-Test Card that a reviewer can require. Across three settings, the same recipe exposes the same pattern. Our primary setting is N-body dynamics under an external field, which contracts O(3) to a horizontal subgroup, so the violation comes from the environment rather than the labels. There a strictly equivariant EGNN degrades from median MSE 0.006 to 1.56 as the field grows, while an otherwise identical calibrated model holds at 0.006: a 249x gap for 1.05x the cost. Rotation augmentation backfires, re-imposing the very symmetry the field removed, and the strict model catches up only when handed the field axis, which the calibrated model never needs. Two synthetic sweeps reproduce the pattern across group and output type (O(3) tensor, 134x; O(5) scalar, ~1046x), and calibration keeps equivariance's data efficiency where the symmetry holds. The lesson is conditional: hard-code symmetry where the pipeline preserves it, calibrate where it does not, and report the card so the difference is visible rather than assumed.},
   selected={true},
 }
 
-
-@article{Concorde,
-  abbr={ICML 2026},
-  author = {Ege Demirci and Ambuj Singh},
-  title = {Concorde: Improving Link Prediction with Mixed-Curvature and Local Geometry},
-  journal = {Under review for ICML 2026},
+@article{CirclesOrderings2026,
+  abbr={ICLR 2027 - Under Review},
+  author = {Ege Demirci and Callie Sardina and Ambuj Singh},
+  title = {Circles or Orderings? A Symmetry Test for Cyclic Concepts in Language Models},
+  journal = {Under review for ICLR 2027},
   year = {2026},
-  month = {January},
-  abstract = {Link prediction models often struggle to reconcile global geometric structure with local topological evidence, particularly in sparse graphs. We introduce Concorde, a framework that bridges this gap by unifying learned mixed-curvature geometry with intrinsic local constraints. Concorde embeds nodes into a product of learnable hyperbolic and spherical manifolds to simultaneously capture hierarchical and cyclic motifs. To mitigate geometric overconfidence, we augment these priors with a structural guardrail: an Ollivier--Ricci curvature proxy that measures neighborhood transport costs to penalize structurally implausible bridges. These manifold-specific and intrinsic signals are fused into a geometry-enhanced adjacency matrix, which guides a diffusion operator. Extensive experiments on standard benchmarks demonstrate that Concorde establishes a new state-of-the-art, nearly doubling early precision compared to leading diffusion and GNN baselines in challenging sparse regimes.},
-  selected={true}
+  abstract = {The linear representation hypothesis treats a concept as a direction. Cyclic concepts such as days of the week and months look like an exception: several studies report that language models place them on a circle. We show that the tests behind such reports cannot tell a cycle from an ordering. A fitted successor operator has its spectrum at the Kth roots of unity for any tokens in a fixed order, random nouns included. Concentration of variation in the fundamental Fourier mode is as high for number words, ordinals, and temperature adjectives as it is for months. We derive a test from the symmetry itself: advancing a concept by one step acts as an isometry on its K states exactly when their Gram matrix is circulant, so we measure the departure from circulance. Across nine models from three families, days and months are more circulant than every same-length ordered control in every model, measured at the concept token. Clock hours cannot be distinguished from a temperature scale, and compass directions are organized by cardinal versus intercardinal type rather than as an eight-cycle. Behavior does not follow automatically from the representation: with the same closed representation of months, Llama shows a wrap-around penalty while Qwen does not.},
+  selected={true},
 }
 
-
-@article{Demirci2024,
-  abbr={IC2S2},
+@article{Demirci2026Habit,
+  abbr={EPJ Data Science},
   author = {Ege Demirci and Efe Tüzün and Ahmet Furkan Un and Taner Giray Sonmez and Onur Varol},
-  title = {From Occasional to Steady:
-Habit Formation Insights From a Comprehensive Fitness Study},
-  journal = {Presented at IC2S2, under review for journal publication} ,
-  year = {2025},
-  month = {January},
-  abstract = {Exercising regularly is widely recognized as a cornerstone of health, yet the challenge of sustaining consistent exercise habits persists. Understanding the factors that influence the formation of these habits is crucial for developing effective interventions.  This study utilizes data from Mars Athletic Club, Türkiye's largest sports chain, to investigate the dynamics of gym attendance and habit formation. The general problem addressed by this study is identifying the critical periods and factors that contribute to the successful establishment of consistent exercise routines among gym-goers. Here we show that there are specific periods during which gym attendance is most crucial for habit formation. By developing a survival metric based on gym attendance patterns, we pinpoint these critical periods and segment members into distinct clusters based on their visit patterns. Our analysis reveals significant differences in how various subgroups respond to interventions, such as group classes, personal trainer sessions, and visiting different clubs. Using causal inference analysis, we demonstrate that personalized guidance and social dynamics are key drivers of sustained long-term engagement. By systematically examining these variables and considering the specific characteristics of different clusters, our research demonstrates the importance of a tailored, multi-dimensional approach to promoting exercise habits, which integrates social dynamics, personalized guidance, and strategic interventions to sustain long-term engagement.},
+  title = {From Occasional to Steady: Causal Drivers of Sustained Gym Attendance in a Large-Scale Fitness Study},
+  journal = {EPJ Data Science; presented at IC2S2 2025},
+  year = {2026},
+  abstract = {Exercising regularly is widely recognized as a cornerstone of health, yet the challenge of sustaining consistent exercise habits persists. Understanding the factors that influence the formation of these habits is crucial for developing effective interventions. This study utilizes data from Mars Athletic Club, Türkiye's largest sports chain, to investigate the dynamics of gym attendance and habit formation. The general problem addressed by this study is identifying the critical periods and factors that contribute to the successful establishment of consistent exercise routines among gym-goers. Here we show that there are specific periods during which gym attendance is most crucial for habit formation. By developing a survival metric based on gym attendance patterns, we pinpoint these critical periods and segment members into distinct clusters based on their visit patterns. Our analysis reveals significant differences in how various subgroups respond to interventions, such as group classes, personal trainer sessions, and visiting different clubs. Using causal inference analysis, we demonstrate that personalized guidance and social dynamics are key drivers of sustained long-term engagement. By systematically examining these variables and considering the specific characteristics of different clusters, our research demonstrates the importance of a tailored, multi-dimensional approach to promoting exercise habits, which integrates social dynamics, personalized guidance, and strategic interventions to sustain long-term engagement.},
   keywords = {habit formation, exercise, fitness, gym attendance, social interactions, structured commitments, causal inference, survival metric},
+  html = {https://link.springer.com/article/10.1140/epjds/s13688-026-00700-y},
+  doi = {10.1140/epjds/s13688-026-00700-y},
   selected={true},
   pdf = {habit.pdf},
 }
@@ -76,9 +82,8 @@ Habit Formation Insights From a Comprehensive Fitness Study},
   month = {March},
   pages = {8794},
   doi = {10.1038/s41598-024-58006-w},
-  abstract={In the context of Turkiye's most recent parliamentary and presidential elections (“seçim” in Turkish), social media has played an important role in shaping public debate. It is of utmost importance to capture social media trends during the 2023 Turkish elections, since it uncovers a great deal of information of election propaganda, political debates, smear campaigns, and election manipulation by domestic and international actors. We provide a comprehensive dataset for social media researchers to study Turkish elections, develop tools to prevent online manipulation, and gather novel information to inform the public. We are committed to continually improving the data collection and updating it regularly leading up to the election. Using the #Secim2023 dataset, researchers can examine the social and communication networks between political actors, track current trends, and investigate emerging threats to election integrity. Our dataset and analysis code available through Harvard Dataverse and Github, respectively.},
+  abstract = {In the context of Turkiye's most recent parliamentary and presidential elections (“seçim” in Turkish), social media has played an important role in shaping public debate. It is of utmost importance to capture social media trends during the 2023 Turkish elections, since it uncovers a great deal of information of election propaganda, political debates, smear campaigns, and election manipulation by domestic and international actors. We provide a comprehensive dataset for social media researchers to study Turkish elections, develop tools to prevent online manipulation, and gather novel information to inform the public. We are committed to continually improving the data collection and updating it regularly leading up to the election. Using the #Secim2023 dataset, researchers can examine the social and communication networks between political actors, track current trends, and investigate emerging threats to election integrity. Our dataset and analysis code available through Harvard Dataverse and Github, respectively.},
   selected={true},
   pdf = {secim2023.pdf},
 }
-
 
